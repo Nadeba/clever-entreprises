@@ -34,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
+    padding: 5px 8%;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
 }
 
@@ -46,7 +46,7 @@ header {
 }
 
 .logo img {
-    width: 220px;
+    width: 150px;
     height: auto;
     display: block;
     object-fit: contain;
@@ -83,14 +83,14 @@ nav a:hover {
 =================================== */
 
 main section:first-child {
-    min-height: 80vh;
+    min-height: auto;
     background-color: #eaf8ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 80px 10%;
+    padding: 60px 10%;
 }
 
 h1 {
