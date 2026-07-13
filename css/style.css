@@ -366,30 +366,38 @@ main section:first-child > p {
 }
 
 .stats-content {
+    width: 100%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 40px;
     text-align: center;
+    align-items: start;
 }
 
 .stat-item {
-    padding: 20px;
+    width: 100%;
+    padding: 20px 5px;
+    text-align: center;
 }
 
 .stat-item strong {
     display: block;
     color: #ffd600;
-    font-size: 55px;
+    font-size: 52px;
     line-height: 1;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
+    white-space: nowrap;
 }
 
 .stat-item p {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
+    line-height: 1.4;
+    max-width: 220px;
+    margin: 0 auto;
 }
 
 
